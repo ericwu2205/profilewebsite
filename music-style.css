@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:hover{
+    color: grey;
+}
+
+a:visited{
+    color: white;
+}
+a:active   {
+
+    color: grey;
+}
+
+#musicbg{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: hidden;
+}
+
+.flex-item{
+    background-color: #111111;
+    color: white;
+    overflow: none;
+}
+
+#left-top-bar{
+    margin: 0.7%;
+    border-radius: 1em;
+
+    height: 12%;
+    width: 21%;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+#left-top-bar a{
+    width: 100%;
+    
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+}
+
+#left-top-bar p {
+    font-size: 100%;
+}
+
+#left-top-bar i {
+    font-size: 100%;
+}
+
+#left-top-bar i{
+    padding-left: 7.5%;
+    padding-right: 4%;
+}
+
+#left-bot-bar {
+    margin: 0.7%;
+    border-radius: 1em;
+
+    height: 76%;
+    width: 21%;
+}
+
+#center-bar{
+    margin: 0.7%;
+    border-radius: 1em;
+
+    height: 89.5%;
+    width: 54%;
+}
+
+#right-bar{
+    margin: 0.7%;
+    border-radius: 1em;
+
+    height: 89.5%;
+    width: 21%; 
+}
+
+#library{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    font-weight: bold; 
+    align-items: center;
+}
+
+#library p{
+    font-size: 100%;
+    padding-left: 5%;
+    padding-right: 40%;
+}
+
+#library i{
+    padding-left: 7%;
+    font-size: 100%;
+}
+
+#bubbles {
+    height: 5%;
+    width: 100%;
+}
+
+.bubble{
+    font-size: 90%;
+
+    border-radius: 0.9em;
+    background-color: rgb(35, 35, 35);
+    display: inline-block;
+
+    padding: 1% 3%;
+    margin-left: 2%;
+}
+
+#recents{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    height: 5%;
+    width: 100%;
+    padding-top: 1.5%;
+}
+
+#recents p{
+    font-size: 90%;
+    padding-right: 15%;
+}
+
+#recents i{
+    font-size: 90%;
+}
+
+.left {
+    width: 65%;
+    height: 100%;
+}
+
+.right {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#artist-panel {
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.artistbox {
+    height: 10%;
+    width: 100%;
+    margin-bottom: 2%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.img-box {
+    height: 100%;
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-text-box{
+    height: 100%;
+    width: 75%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.top-text{
+    font-size: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.bot-text{
+    font-size: 80%;
+    color: grey;
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bot-text i {
+    padding-right: 2%;
+}
+
+.circleimage {
+    border-radius: 50%;
+    height: 90%;
+}
+
+#navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 8%;
+    margin-bottom: 2%;
+}
+
+#nav-left {
+    width: 87%;
+}
+
+#nav-left i {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#nav-right {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 8%;
+}
+
+#nav-right i{
+    padding-right: 20%;
+}
+
+#nav-right img {
+    height: 2em; 
+    border-radius: 50%;
+}
+
+#playlist {
+    height: 32%;
+    width: 100%;
+    
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+#playlist-desc {
+    height: 100%;
+    width: 95%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+#playlist-img-box{
+    height: 100%;
+    width: 27%;
+}
+
+#playlist-image {
+    height: 90%;
+    width: 90%;
+}
+
+#playlist-text {
+    height: 85%;
+    width: 50%;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+#playlist-text p{
+    font-size: 85%;
+}
+
+#playlist-text p2{
+    margin-top: 2%;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+#playlist-text p3{
+    margin-top: 4%;
+    font-size: 85%;
+}
+
+#playlist-button-bar {
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#playlist-buttons {
+    height: 100%;
+    width: 95%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#clear-bubble {
+    font-size: 80%;
+    font-weight: bolder;
+    padding: 0.5% 1%;
+    border: solid 0.1em white;
+    border-radius: 1em;
+}
+
+#playlist-type-bar {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 1%;    
+}
+
+#pl-bar {
+    width: 95%;
+    height: 100%;
+    border-bottom: 0.5px solid grey;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 80%;
+    color: grey;
+    align-items: center;
+}
+
+#song-list {
+    width: 100%;
+    height: 40%;
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.song-bar{
+    height: 16%;
+    width: 95%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.7%;
+}
+
+
+.song-image-box {
+    height: 100%;
+    width: 12%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.song-title-box {
+    height: 100%;
+    width: 27.5%;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    
+}
+
+.song-album-box {
+    height: 100%;
+    width: 28%;
+
+    display: flex;
+    align-items: center;
+}
+
+.song-date-box {
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+}
+.song-time-box {
+    height: 100%;
+    width: 6%;
+
+    display: flex;
+    align-items: center;
+}
+
+.song-bar p {
+    font-size: 85%;
+}
+
+.song-bar p1 {
+    font-size: 80%;
+    color: grey;
+}
+
+.song-bar p2 {
+    font-size: 80%;
+    color: grey;
+}
+
+.song-bar p3 {
+    font-size: 80%;
+    color: grey;
+}
+
+.song-bar p4 {
+    font-size: 80%;
+    color: grey;
+}
+
+#act-bar {
+    height: 8%;
+    width: 100%;
+    
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#right-bot-bar {
+    height: 88%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
