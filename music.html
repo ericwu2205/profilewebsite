@@ -6,6 +6,7 @@
 
         <!-- Icon -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+        <meta name="viewport" content= "width=device-width, initial-scale=1"> 
     </head>
     
     <body>
@@ -61,7 +62,7 @@
                 <div  id="artist-panel">
                     <div class="artistbox">
                         <div class="img-box">
-                            <img src="images/liked artists.png">
+                            <img src="images/liked artists.png" class="square-image">
                         </div>
 
                         <div class="two-text-box">
@@ -234,17 +235,23 @@
                 
                 <div  id="playlist-button-bar">
                     <div  id="playlist-buttons">
-                        <a href="games.html" style="padding-right: 4%;">
-                            <i class="fa-solid fa-circle-play fa-2xl" id="play" style="color: #1ed760; font-size: 300%;"></i>
-                        </a>
-                        
-                        <div id = "clear-bubble" style="margin-right: 3%;"> Enhance </div>
+                        <div id="playlist-left">
+                            <a href="games.html">
+                                <i class="fa-solid fa-circle-play fa-2xl" id="play" style="color: #1ed760; font-size: 300%;"></i>
+                            </a>
 
-                        <i class="fa-regular fa-circle-down" style="font-size: 150%; margin-right: 3%;"></i>
-                        <i class="fa-solid fa-ellipsis" style="margin-right: 60%;"></i>
-                        <i class="fa-solid fa-magnifying-glass fa-xs" style="font-size: 80%; margin-right: 1%;"></i>
-                        <p style="font-size: 80%; margin-right: 1%;">Date added</p>
-                        <i class="fa-solid fa-caret-down fa-2xs"></i>
+                            <div id = "clear-bubble"> Enhance </div>
+                            <i class="fa-regular fa-circle-down"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        
+                        <div id="playlist-middle"></div>
+
+                        <div id="playlist-right">
+                            <i class="fa-solid fa-magnifying-glass fa-xs"></i>
+                            <p>Date added</p>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
                     </div>
                 </div>
 

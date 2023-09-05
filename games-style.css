@@ -170,32 +170,40 @@
     width: 100%;
     height: 10.5%;
     background-color: #171a2136;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse wrap;
 }
 
 .games-next-button {
-    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
     width: 20%;
     height: 45%;
     background-color: #5e9fd45b;
     border-radius: 3%;
-    text-align: center;
-    right: -80%;
 }
 
 .games-next-button p{
-    position: relative;
-    top: 25%;
     font-size: 90%;
     font-weight: 100;
     color: lightblue;
 }
 
 .games-back-button {
-    width: 25%;
-    height: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 45%;
     background-color: #5e9fd45b;
     border-radius: 3%;
-    text-align: center;
 }
 
 .games-back-button p{
